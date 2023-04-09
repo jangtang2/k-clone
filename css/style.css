@@ -5,6 +5,7 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /*screeens*/
 @import "screens/login.css";
@@ -12,4 +13,5 @@
 body{
   font-family: 'Roboto', sans-serif;
   height: 100vh;
+  color: #343a40;
 }
