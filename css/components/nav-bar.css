@@ -12,8 +12,32 @@
     justify-content:space-between;
   }
   .nav__link{
+    position: relative;
     color: gray;
+  }
+  .nav__notice{
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    right: -10px;
+    top: -10px;
   }
   #friends-nav{
     color: #343a40;
+  }
+  #menu-dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: tomato;
+    top: -2px;
+    left: 22px;
   }
