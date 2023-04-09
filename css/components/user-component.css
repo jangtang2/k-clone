@@ -1,16 +1,23 @@
 .user-component{
-    display: flex;
+    justify-content: space-between;
 }
 .user-component,
 .user-component__column:first-child{
     display: flex;
     align-items: center;
 }
+.user-component__column:last-child{
+    color: gray;
+}
 .user-component__img{
     width: 60px;
     height: 60px;
     border-radius: 40%;
     margin-right: 20px;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .user-component__img--xl{
     width: 70px;
@@ -23,6 +30,10 @@
 .user-component__title{
     font-weight: 600;
     font-size: 22px;
+}
+.user-component__title--xs{
+    font-weight: 400;
+    font-size: 20px;
 }
 .user-component__subtitle{
     margin-top: 8px;
