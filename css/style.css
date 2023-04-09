@@ -9,6 +9,7 @@
 
 /*screeens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body{
   font-family: 'Roboto', sans-serif;
