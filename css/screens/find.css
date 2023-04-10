@@ -33,6 +33,7 @@
 .openchats{
     padding: 25px 0px;
     color: gray;
+    margin-bottom:50px;
 }
 .openchats__header{
     display: flex;
