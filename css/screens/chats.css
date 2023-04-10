@@ -1,0 +1,19 @@
+.chat__time{
+    color: gray;
+}
+.chat__unread{
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: tomato;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.chat-component{
+    margin-bottom: 20px;
+}
