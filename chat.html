@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>chat w/ Maltese - Kakao chat</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>80%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <i class="fas fa-chevron-left fa-lg"></i>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Maltese</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-lg alt-header__right"></i>
+            <i class="fas fa-bars fa-lg  alt-header__right"></i>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            <span>Tuesday, April 11, 2023</span>
+        </div>
+
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message__block">
+                    <span class="message__text">Hi, Maltese!</span>
+                    <span class="message__time">15:02</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="img/M.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">Maltese</span>
+                <div class="message__block">
+                    <span class="message__text">Hello, Chihuahua! How are you?</span>
+                    <span class="message__time">15:21</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message__block">
+                    <span class="message__text">I'm good. Can you hang out with me tomorrow? </span>
+                    <span class="message__time">15:02</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text"/>
+        </div>
+        <div class="reply__column">
+            <i class="far fa-smile"></i>
+            <button><i class="fas fa-arrow-up fa-lg"></i></button>
+        </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/a5da5bf77e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
