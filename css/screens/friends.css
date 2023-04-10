@@ -34,3 +34,28 @@
 #friends-display-link i{
     color: rgb(185, 185, 185);
 }
+
+@keyframes hidesplash{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen{
+    background-color: var(--yellow);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    z-index: 3;
+    animation: hidesplash 1s ease-in-out forwards;
+    animation-delay: 1s;
+}
