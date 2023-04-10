@@ -15,20 +15,6 @@
     position: relative;
     color: gray;
   }
-  .nav__notice{
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    color: white;
-    font-weight: 600;
-    right: -10px;
-    top: -10px;
-  }
   #friends-nav{
     color: #343a40;
   }
